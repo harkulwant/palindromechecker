@@ -14,3 +14,4 @@ L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Api\obj\Release\netcoreapp
 L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Api\obj\Release\netcoreapp2.0\Harkulwant.PalindromeChecker.Api.AssemblyInfo.cs
 L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Api\obj\Release\netcoreapp2.0\Harkulwant.PalindromeChecker.Api.dll
 L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Api\obj\Release\netcoreapp2.0\Harkulwant.PalindromeChecker.Api.pdb
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Api\bin\Release\netcoreapp2.0\Harkulwant.PalindromeChecker.Api.xml
