@@ -9,10 +9,11 @@ namespace Harkulwant.PalindromeChecker.Model
         {
             ContextId = contextId;
             Errors = new List<string>();
+            Palindromes = new List<Palindrome>();
         }
 
         public Guid ContextId { get; private set; }
-        public int PalindromeId { get; set; }
+        public IList<Palindrome> Palindromes { get; set; }
         public List<string> Errors { get; set; }
         public bool IsValid
         {

@@ -27,11 +27,22 @@ namespace Harkulwant.PalindromeChecker.Api.Controllers.v1
         /// <summary>
         /// Get all palindromes
         /// </summary>
-        /// <returns></returns>
+        /// <returns>List of Palindrome items in the database</returns>
         [HttpGet]
-        public async Task<IList<string>> Get()
+        [ProducesResponseType(typeof(IList<Palindrome>), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(BadRequestResult), (int)HttpStatusCode.BadRequest)]
+        public async Task<IActionResult> Get()
         {
-            return await _palindromeService.GetAsync();
+            try
+            {
+                var response = await _palindromeService.GetAsync();
+                return Ok(response.Palindromes);
+            }
+            catch (System.Exception ex)
+            {
+                // todo: exception logging & handling
+            }
+            return new BadRequestResult();
         }
 
 

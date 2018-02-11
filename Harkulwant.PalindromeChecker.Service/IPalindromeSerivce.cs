@@ -6,7 +6,7 @@ namespace Harkulwant.PalindromeChecker.Service
 {
     public interface IPalindromeService
     {
-        Task<IList<string>> GetAsync();
+        Task<Response> GetAsync();
         Task<Response> PostAsync(Request request);
     }
 }

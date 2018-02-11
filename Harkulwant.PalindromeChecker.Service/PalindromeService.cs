@@ -1,10 +1,10 @@
 ﻿using Harkulwant.PalindromeChecker.Model;
-using Harkulwant.PalindromeChecker.Model.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using PalindromeRepoObj = Harkulwant.PalindromeChecker.Model.Repository.Palindrome;
 
 namespace Harkulwant.PalindromeChecker.Service
 {
@@ -18,10 +18,15 @@ namespace Harkulwant.PalindromeChecker.Service
             _repositoryService = repositoryService;
         }
 
-        public async Task<IList<string>> GetAsync()
+        public async Task<Response> GetAsync()
         {
             var dbPalindromes = await _repositoryService.GetPalindromesAsync();
-            return dbPalindromes?.Select(x => x.Value).ToList();
+            var response = new Response(Guid.NewGuid())
+            {
+                Palindromes = dbPalindromes?.Select(x => new Palindrome() { Id = x.Id, Value = x.Value }).ToList()
+            };
+
+            return response;
         }
 
         public async Task<Response> PostAsync(Request request)
@@ -32,7 +37,7 @@ namespace Harkulwant.PalindromeChecker.Service
                 return response;
 
             // todo: implement automapper
-            var palindrome = new Palindrome()
+            var palindrome = new PalindromeRepoObj()
             {
                 Value = request.Value,
                 Timestamp = DateTime.UtcNow
@@ -40,7 +45,7 @@ namespace Harkulwant.PalindromeChecker.Service
 
             // stored palindrome returned with id
             var dbPalindrome = await _repositoryService.InsertPalindromeAsync(palindrome);
-            response.PalindromeId = dbPalindrome.Id;
+            response.Palindromes.Add(new Palindrome() { Id = dbPalindrome.Id, Value=dbPalindrome.Value });
 
             return response;
         }
