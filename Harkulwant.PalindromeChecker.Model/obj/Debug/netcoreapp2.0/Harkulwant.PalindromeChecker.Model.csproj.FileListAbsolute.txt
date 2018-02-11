@@ -1,0 +1,9 @@
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Model\bin\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Model.deps.json
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Model\bin\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Model.dll
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Model\bin\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Model.pdb
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Model\obj\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Model.csprojResolveAssemblyReference.cache
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Model\obj\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Model.csproj.CoreCompileInputs.cache
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Model\obj\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Model.AssemblyInfoInputs.cache
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Model\obj\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Model.AssemblyInfo.cs
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Model\obj\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Model.dll
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Model\obj\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Model.pdb

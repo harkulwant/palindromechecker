@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Harkulwant.PalindromeChecker.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Harkulwant.PalindromeChecker.Api.Controllers.v1.PalindromeController">
+            <summary>
+            Controller to manage all palindrome actions
+            </summary>
+        </member>
+        <member name="M:Harkulwant.PalindromeChecker.Api.Controllers.v1.PalindromeController.#ctor(Harkulwant.PalindromeChecker.Service.IPalindromeService)">
+            <summary>
+            
+            </summary>
+            <param name="palindromeSerivce"></param>
+        </member>
+        <member name="M:Harkulwant.PalindromeChecker.Api.Controllers.v1.PalindromeController.Get">
+            <summary>
+            Get all palindromes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Harkulwant.PalindromeChecker.Api.Controllers.v1.PalindromeController.Post(Harkulwant.PalindromeChecker.Model.Request)">
+            <summary>
+            Post the palindrome and save if ok
+            </summary>
+            <param name="request"></param>
+            <returns>http status code</returns>
+            <response code="201"></response>
+            <response code="400"></response>   
+        </member>
+    </members>
+</doc>

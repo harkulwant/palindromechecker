@@ -1,0 +1,11 @@
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Repository\bin\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Repository.deps.json
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Repository\bin\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Repository.dll
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Repository\obj\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Repository.csprojResolveAssemblyReference.cache
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Repository\obj\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Repository.csproj.CoreCompileInputs.cache
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Repository\obj\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Repository.AssemblyInfoInputs.cache
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Repository\obj\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Repository.AssemblyInfo.cs
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Repository\bin\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Repository.pdb
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Repository\obj\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Repository.dll
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Repository\obj\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Repository.pdb
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Repository\bin\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Model.dll
+L:\Git\palindromechecker\Harkulwant.PalindromeChecker.Repository\bin\Debug\netcoreapp2.0\Harkulwant.PalindromeChecker.Model.pdb

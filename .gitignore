@@ -1,0 +1,7 @@
+Exchange.Authorisation/Exchange.AuthDB/Exchange.AuthDB.dbmdl
+
+
+# npm
+node_modules
+*.log
+*.gz
