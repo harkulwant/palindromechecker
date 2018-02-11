@@ -1,4 +1,4 @@
-# Palindrome Checker
+# Palindrome Checker     ![.net core 2.0](http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/MinorCatImages/062632AM.png.ashx?width=64&height=64)
 .NET Core 2.0 Web API to determing the validity of the palindrome entered
 
 ### Getting started
